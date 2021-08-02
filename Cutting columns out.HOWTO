@@ -1,0 +1,1000 @@
+ 1059  ls
+ 1060  sudo fdisk -l
+ 1061  sudo fdisk -l |sd
+ 1062  sudo fdisk -l |grep sd
+ 1063  badblocks --help|less
+ 1064  badblocks 
+ 1065  man badblocks 
+ 1066  badblocks -s /dev/sda
+ 1067  sudo badblocks -s /dev/sda
+ 1068  mkdir Badblocks
+ 1069  code README.TEXT
+ 1070  ls
+ 1071  cat README.TEXT 
+ 1072  seeagentdbk
+ 1073  l;wdfkl;sort -t -k2
+ 1074  cd ~
+ 1075  cd K2/
+ 1076  ls-time.sh 
+ 1077  cd Maybe\ hook\ up\ to\ CV\ ai/`
+ 1078  cd Maybe\ hook\ up\ to\ CV\ ai/
+ 1079  ls-time
+ 1080  ls-time.sh 
+ 1081  cd Take\ apart\ client\ a\ little/
+ 1082  ls-time.sh 
+ 1083  cd dbkFun1/
+ 1084  ls-time.sh 
+ 1085  sort -t -k2 seeitnow1.REPORT 
+ 1086  sort  -k2 seeitnow1.REPORT 
+ 1087  sort  -k3 seeitnow1.REPORT 
+ 1088  sort  -k2 seeitnow1.REPORT |less
+ 1089  sort -k 2,2n seeitnow1.REPORT |less
+ 1090  sort -k 3,2n seeitnow1.REPORT |less
+ 1091  sort -k 3,1n seeitnow1.REPORT |less
+ 1092  sort -k 3,1n,2n,3n seeitnow1.REPORT |less
+ 1093  sort -k 3 seeitnow1.REPORT |less
+ 1094  sort -k 3 seeitnow1.REPORT 
+ 1095  seeagentdbk | sort -k 3 
+ 1096  alias
+ 1097  ls-dirs.sh 
+ 1098  ls-size.sh 
+ 1099  ls-dirs
+ 1100  ls-dirs.sh 
+ 1101  ls-justdirs.sh 
+ 1102  ls-size.sh 
+ 1103  alias seeagentdbk
+ 1104  alias see-agentdbk-by-time='seeagentdbk | sort -k 3 
+ 1105  alias see-agentdbk-by-time='seeagentdbk | sort -k 3'
+ 1106  alias
+ 1107  alias see-stach-by-time='seeagentdbk | sort -k 3 
+ 1108  echo alias see-stach-by-time='seeagentdbk | sort -k 3 
+ 1109  echo alias see-stach-by-time='seeagentdbk | sort -k 3'
+ 1110  echo alias see-stach-by-time='seeagentdbk | sort -k 3 
+ 1111  alias see-stash-by-time='seeagentdbk | sort -k 3'
+ 1112  alias 
+ 1113  see-stash-by-time 
+ 1114  alias |grep stash
+ 1115  cd ~
+ 1116  code .bashrc 
+ 1117  exit
+ 1118  file see
+ 1119  see --help
+ 1120  man see
+ 1121  see-stash-by-time 
+ 1122  see-stash-as-is 
+ 1123  cd Dinker_1
+ 1124  cp ~/.bashrc t1.TEXT
+ 1125  code t1.TEXT 
+ 1126  ls -ltr
+ 1127  cp t1 ~/.bashrc 
+ 1128  exit
+ 1129  alias
+ 1130  exit
+ 1131  cd K2
+ 1132  ls-time.sh 
+ 1133  cp jHere.ipynb  1946.ipynb
+ 1134  ls *.ipynb
+ 1135  ls -ltrh
+ 1136  toagentdbk 1946.ipynb 
+ 1137  ls-time.sh 
+ 1138  date
+ 1139  cd Maybe\ hook\ up\ to\ CV\ ai/
+ 1140  ls-time.sh 
+ 1141  cd Take\ apart\ client\ a\ little/
+ 1142  du -h
+ 1143  ls-time.sh 
+ 1144  du -h
+ 1145  cd dbkFun1/
+ 1146  ls-time.sh 
+ 1147  du -h
+ 1148  tar -cfz wip_dbkfun1.tar.bz *
+ 1149  tar -czf wip_dbkfun1.tar.bz *
+ 1150  ls-time.sh 
+ 1151  toagentdbk wip_dbkfun1.tar.bz 
+ 1152  seeagentdbk >seeitnow1.REPORT
+ 1153  nano seeitnow1.REPORT 
+ 1154  sort --help |less
+ 1155  sort -k 2n seeitnow1.REPORT 
+ 1156  sort -k 3n seeitnow1.REPORT 
+ 1157  sort -k 3d seeitnow1.REPORT 
+ 1158  sort -k 1 seeitnow1.REPORT 
+ 1159  sort -k 2 seeitnow1.REPORT 
+ 1160  grep MiB seeitnow1.REPORT 
+ 1161  grep miB seeitnow1.REPORT 
+ 1162  grep -i miB seeitnow1.REPORT 
+ 1163  gsutil rm gs://staging.agentdbk.appspot.com/K2_some_0351.tar.bz
+ 1164  grep -i 2021-02 seeitnow1.REPORT 
+ 1165  gsutil rm  gs://staging.agentdbk.appspot.com/K2_source_0414.tar.bz
+ 1166  grep -i 2021-03-10 seeitnow1.REPORT 
+ 1167  grep -i '2021-03-??' seeitnow1.REPORT 
+ 1168  grep -i '2021-03-09' seeitnow1.REPORT 
+ 1169  ls -ltr
+ 1170  ls-time.sh 
+ 1171  exit
+ 1172  cat ~/.bashrc 
+ 1173  cd ~
+ 1174  ls-time.sh 
+ 1175  cd Dinker_1
+ 1176  ls -ltr
+ 1177  cat t1.TEXT
+ 1178  ls
+ 1179  cp t1.TEXT ~/.bashrc 
+ 1180  cat ~/.bashrc 
+ 1181  exit
+ 1182  alias
+ 1183  see-commands-dbk-version 
+ 1184  exit
+ 1185  cd /
+ 1186  cd K2
+ 1187  cd ~
+ 1188  cd K2/jn
+ 1189  cd K2
+ 1190  jn
+ 1191  cd ~/Computer_Support_123/
+ 1192  mkdir 'Commands I made and use - LINUX'
+ 1193  cd Commands\ I\ made\ and\ use\ -\ LINUX/
+ 1194  cp ~/.bashrc z
+ 1195  cat z
+ 1196  mv z '10 Mar 2021 1540 Z'
+ 1197  cd ..
+ 1198  cd Computer_Support_123/
+ 1199  du -h
+ 1200  ls *.bz
+ 1201  rm -i  *.bz
+ 1202  tar -czf c123_10M.tar.bz *
+ 1203  ls-time.sh 
+ 1204  exit
+ 1205  cd K2/
+ 1206  ls -ltrh
+ 1207  cp  jHere.ipynb 2101.ipynb
+ 1208  ls ????.i*
+ 1209  ls -ltrh *.ipynb
+ 1210  rm 2314.ipynb 
+ 1211  ls-dirs.sh 
+ 1212  find . -iname '*.url'
+ 1213  cd Maybe\ hook\ up\ to\ CV\ ai/
+ 1214  find . -iname '*.url'
+ 1215  nano home_for_stanford_guy.URL
+ 1216  cp ~/Downloads/coronacentral_data.csv z
+ 1217  mv z 'Used WWW for theraputics 10 Mar 2021.csv'
+ 1218  ls-ltrh
+ 1219  ls -ltrh
+ 1220  ls *.py
+ 1221  ls-dirs
+ 1222  cd Take\ apart\ client\ a\ little/
+ 1223  mv ../Used\ WWW\ for\ theraputics\ 10\ Mar\ 2021.csv .
+ 1224  ls-dirs
+ 1225  cd dbkFun1/
+ 1226  mv ../Used\ WWW\ for\ theraputics\ 10\ Mar\ 2021.csv  .
+ 1227  ls-ltrh
+ 1228  ls -ltrh
+ 1229  ls -l *.th*
+ 1230  ls -l th*
+ 1231  ls -lSr
+ 1232  code z
+ 1233  file z
+ 1234  rm z
+ 1235  ls -lSr
+ 1236  chmod 444 lo* non* tra*
+ 1237  ls -ltrh
+ 1238  ls -lSrh
+ 1239  ls -ltrh
+ 1240  ls-dirs.sh 
+ 1241  chmod 444 *
+ 1242  ls -ltrh
+ 1243  cd ..
+ 1244  find . -iname '*.py'
+ 1245  cd Take\ apart\ client\ a\ little/
+ 1246  cd coronacentral.ai/
+ 1247  ls
+ 1248  ls -ltrh
+ 1249  ls -lSr
+ 1250  ls !(*.*)
+ 1251  ls
+ 1252  ls !(*.*)
+ 1253  ls -ltrh
+ 1254  ls !(*.*)
+ 1255  ls -ltr !(*.*)
+ 1256  cd Pythons_here/
+ 1257  ls -ltr !(*.*)
+ 1258  cd ..
+ 1259  chmod 777 coronacentral.ai/
+ 1260  cd coronacentral.ai/
+ 1261  chmod -R 777 .
+ 1262  chmod -R 777 *
+ 1263  ls -ltrh
+ 1264  chmod -R 555 *
+ 1265  ls -ltrh
+ 1266  cd Pythons_here/
+ 1267  ls -ltrh
+ 1268  nano 2049.py 
+ 1269  ls -lSr
+ 1270  ls -ltrh
+ 1271  badblock -s /dev/sda
+ 1272  sudo badblocks -s /dev/sda; badblocks -s /dev/sda
+ 1273  sudo badblocks -s /dev/sda; sudo badblocks -s /dev/sdb
+ 1274  ls-ltr
+ 1275  ls-time.sh 
+ 1276  exit
+ 1277  cd ~/LINUX_Installs/firefox$
+ 1278  cd ~/LINUX_Installs/firefox
+ 1279  echo Now 11 Mar 2021 01:13 Z
+ 1280  history
+ 1281  sudo apt update
+ 1282  apt list --upgradeable >z
+ 1283  ls
+ 1284  ls-size
+ 1285  ls-size.sh 
+ 1286  mv z 0104.REPORT
+ 1287  code *.REPORT
+ 1288  ls
+ 1289  cat 'Like so one.TEXT' 
+ 1290  sudo apt help
+ 1291  sudo apt list firefox
+ 1292  sudo apt show  firefox
+ 1293  sudo apt show  firefox >0106.REPORT
+ 1294  chmod 555 *
+ 1295  ls-size.sh 
+ 1296  code *
+ 1297  firefox --version >now17.REPORT
+ 1298  cat now17.REPORT 
+ 1299  chmod 555 *
+ 1300  ls -ltrh
+ 1301  exit
+ 1302  cd /media/dank/TUNA/
+ 1303  ls-time.sh 
+ 1304  cd NhCp06Ma21/
+ 1305  sudo djk6
+ 1306  cp -pr ~/K2 .
+ 1307  du -h K2/
+ 1308  dir -h ~/K2/
+ 1309  du -h ~/K2/
+ 1310  sudo cp ~/Computer_Support_123/  .
+ 1311  sudo cp -pr ~/Computer_Support_123/  .
+ 1312  du -h ~/Computer_Support_123/
+ 1313  cd Computer_Support_123/
+ 1314  ls -ltrh
+ 1315  exit
+ 1316  time-local
+ 1317  cd ~/LINUX_Installs/
+ 1318  echo Now 11 Mar 2021 04:39 Z
+ 1319  mkdir meld
+ 1320  sudo cffff
+ 1321  meld --help
+ 1322  sudo apt insall meld
+ 1323  sudo apt install meld
+ 1324  meld --help
+ 1325  meld --help >meld_help.REPORT
+ 1326  code Transscript.REPORT
+ 1327  ls -ltrh
+ 1328  mv Transscript.REPORT Transcript.REPORT 
+ 1329  meld --help |less
+ 1330  meld --version
+ 1331  meld --version >Version.REPORT
+ 1332  history >0444.HISTORY
+ 1333  ls
+ 1334  ls -ltrh
+ 1335  cd meld/
+ 1336  ls
+ 1337  mv ../04* .
+ 1338  ls ..
+ 1339  ls -ltr ..
+ 1340  mv ../me* .
+ 1341  mv ../Transcript.REPORT  .
+ 1342  mv ../Version.REPORT  .
+ 1343  ls-time.sh 
+ 1344  mv memtester/ ..
+ 1345  meld
+ 1346  exit
+ 1347  cd About_WIYL/
+ 1348  find . -iname '*.csv'
+ 1349  find . -iname '*.csv'
+ 1350  du -h ./Program\ improvements/
+ 1351  find . -iname '*.csv'
+ 1352  cd Program\ improvements/
+ 1353  ls-dirs.sh 
+ 1354  cd Test\ input\ files\ like\ CSVs\ etc/
+ 1355  du -h
+ 1356  ls -ltrh
+ 1357  ls *.json
+ 1358  meld 'Pulled by app 0417 therapeutics.json' 
+ 1359  code 'Pulled by app 0417 therapeutics.json' 
+ 1360  ls -l 'Pulled by app 0417 therapeutics.json' 
+ 1361  ls -lh 'Pulled by app 0417 therapeutics.json' 
+ 1362  ls -ltrh
+ 1363  code Given\ as\ DL\ 0421\ coronacentral_data.json 
+ 1364  ls -ltrh 'Given as DL 0421 coronacentral_data.json' 
+ 1365  ls -ltr 'Given as DL 0421 coronacentral_data.json' 
+ 1366  ls -ltrh
+ 1367  ls -l 'Given as DL 0422 coronacentral_data.csv' 
+ 1368  ls -lh 'Given as DL 0422 coronacentral_data.csv' 
+ 1369  ls -ltrh
+ 1370  mv Given\ as\ DL\ 0421\ coronacentral_data.json  'Therapeautic 0535.json'  
+ 1371  mv Given\ as\ DL\ 0422\ coronacentral_data.csv  'Therapeautic 0535.csv' 
+ 1372  ls -ltrh
+ 1373  mv Pulled\ by\ app\ 0417\ therapeutics.json  'Therapeautic pulled 0535 therapeutics.json' 
+ 1374  ls -ltrh
+ 1375  wget https://coronacentral.ai/_next/data/qasZRzFEIUsaNd_HlUFMT/transmission.json
+ 1376  ls -ltrh
+ 1377  mv transmission.json 'Transmission pulled 0535.json
+ 1378  mv transmission.json 'Transmission pulled 0535.json'
+ 1379  ls -ltrh
+ 1380  mv Therapeautic\ pulled\ 0535\ therapeutics.json   'Therapeautic pulled 0535.json' 
+ 1381  ls -ltrg
+ 1382  mv coronacentral_data.csv  'Transmission 0535.csv' 
+ 1383  mv coronacentral_data.json  'Transmission 0535.json' 
+ 1384  ls -ltrh
+ 1385  ls *.csv
+ 1386  ls -ltrh
+ 1387  cd ~/Computer_Support_123/
+ 1388  ls-time.sh 
+ 1389  touch Hard_drives/
+ 1390  cd Hard_drives/
+ 1391  ls
+ 1392  cd ..
+ 1393  find . -iname bad 
+ 1394  ls-time.sh 
+ 1395  cd Hard_drives/
+ 1396  ls
+ 1397  ls -ltr
+ 1398  cd NewtonHnf/
+ 1399  ls-time.sh 
+ 1400  nano Badblocks/
+ 1401  touch Badblocks/
+ 1402  cd Badblocks/
+ 1403  ls
+ 1404  code README.TEXT
+ 1405  sudo l
+ 1406  sudo badblocks -s /dev/sda
+ 1407  cd Computer_Support_123/
+ 1408  ls-time.sh 
+ 1409  see-commands-dbk-version 
+ 1410  toagentdbk c123_10M.tar.bz 
+ 1411  see-stash-by-time 
+ 1412  see-stash-by-time |less
+ 1413  see-stash-as-is | grep c12
+ 1414  gsutil rm gs://staging.agentdbk.appspot.com/c123_0051.tar.bz
+ 1415  see-stash-by-time 
+ 1416  cd ~/K2/
+ 1417  ls-time.sh 
+ 1418  cd Maybe\ hook\ up\ to\ CV\ ai/
+ 1419  ls-time.sh 
+ 1420  cd Take\ apart\ client\ a\ little/
+ 1421  ls-time.sh 
+ 1422  cd dbkFun1/
+ 1423  ls-time.sh 
+ 1424  ls
+ 1425  cd ..
+ 1426  find . -iname '*.py'
+ 1427  cd ./Maybe hook up to CV ai/Take apart client a little/coronacentral.ai/Pythons_here/
+ 1428  cd './Maybe hook up to CV ai/Take apart client a little/coronacentral.ai/Pythons_here/'
+ 1429  ls-time
+ 1430  ls-time.sh 
+ 1431  rm wip_0910Mar2021_a.tar.bz 
+ 1432  ls-ltr
+ 1433  ls-time.sh 
+ 1434  cp 0403.py 2049.py
+ 1435  touch 2049.py 
+ 1436  tar -czf wip_10Mar2021_a.tar.gz *
+ 1437  ls -ltrh
+ 1438  to-stash-agentdbk wip_10Mar2021_a.tar.gz 
+ 1439  ls -ltrh
+ 1440  chmod 444 therapeutics
+ 1441  ld *
+ 1442  ls *
+ 1443  ls *.
+ 1444  ls '*'
+ 1445  ls '*.'
+ 1446  ls
+ 1447  echo  !(*.*)
+ 1448  ls  !(*.*)
+ 1449  chmod  444 !(*.*) 
+ 1450  touch 444 !(*.*) 
+ 1451  ls-time.sh 
+ 1452  rm 444
+ 1453  ls !(*.*)
+ 1454  ls !(*.py)
+ 1455  ls !(*.*)
+ 1456  ls !(t.*)
+ 1457  ls !(tr.*)
+ 1458  ls-time.sh 
+ 1459  idle 2049.py 
+ 1460  ls *.URL
+ 1461  history
+ 1462  exit
+ 1463  cd K2
+ 1464  jn
+ 1465  exit
+ 1466  zip -help
+ 1467  unzip -help
+ 1468  exit
+ 1469  cd /media/dank/TUNA/
+ 1470  ls -l About_WIYL
+ 1471  ls -ld About_WIYL
+ 1472  ls-time
+ 1473  ls-time.sh 
+ 1474  cd NhCp06Ma21/
+ 1475  ls -ld About_WIYL/
+ 1476  sudo iiid
+ 1477  chmod 777 ~/About_WIYL/
+ 1478  chmod -R 777 ~/About_WIYL/
+ 1479  sudo rm -r About_WIYL/
+ 1480  sudo cp -pr ~/About_WIYL/ .
+ 1481  du -h  ~/About_WIYL/ 
+ 1482  du -h ./About_WIYL/
+ 1483  sudo cp -pr ~/K2/ .
+ 1484  sudo cp -pr ~/Computer_Support_123/ .
+ 1485  ls-ltr ~
+ 1486  ls -ltr ~
+ 1487  sudo cp -pr ~/Days .
+ 1488  sudo cp -pr ~/LINUX_Installs/ .
+ 1489  history
+ 1490  ls -ltr ~
+ 1491  sudo cp -pr ~/Start\ HTMLs/ .
+ 1492  sudo cp -pr ~/Bookmarks/ .
+ 1493  sudo cp -pr ~/Compbio/ .
+ 1494  sudo cp -pr ~/Ceremonial\ Documents/ .
+ 1495  ls -ltr ~ |less
+ 1496  ls -ltr |less
+ 1497  ls -ltr 
+ 1498  ls -ltrd 
+ 1499  ls -ltrd *
+ 1500  cd FRESNO/
+ 1501  ls
+ 1502  cd ..
+ 1503  rm FRESNO/
+ 1504  rm -r FRESNO/
+ 1505  df -h
+ 1506  df -h |grep /sd
+ 1507  sudo fdisk -l
+ 1508  sudo fdisk -l |less
+ 1509  sudo fdisk -l |grep sd
+ 1510  l
+ 1511  sudo fdisk -l |grep sd
+ 1512  sudo fdisk -l |grep Disk
+ 1513  sudo fdisk -l |grep sd
+ 1514  du -f /dev/sdc4
+ 1515  du -h /dev/sdc4
+ 1516  du -h
+ 1517  df -h
+ 1518  df -h |gresp sd
+ 1519  df -h |grep sd
+ 1520  df 
+ 1521  df -h
+ 1522  cd ..
+ 1523  mkdir PiCp12Ma21
+ 1524  exit
+ 1525  cd K2
+ 1526  ls -ltrh
+ 1527  ls *.ipynb
+ 1528  ls -ltrh *.ipynb
+ 1529  cp jHere.ipynb 2058.ipynb
+ 1530  is *.png
+ 1531  ls *.png
+ 1532  ls -l *.png
+ 1533  jn
+ 1534  pwd
+ 1535  mkdir aggentdbk
+ 1536  cd aggentdbk/
+ 1537  mkdir functions
+ 1538  cd functions/
+ 1539  cp -pr /media/dank/HARRIET/f/* . 
+ 1540  exit
+ 1541  cd agentdbk/
+ 1542  cd functions/
+ 1543  code ls *.js
+ 1544  ls *.js
+ 1545  ls in*
+ 1546  node --version
+ 1547  gsutil ls
+ 1548  ls intent_listeners/
+ 1549  cd ..
+ 1550  ls -lSr *.js
+ 1551  cd functions/
+ 1552  ls -lSr *.js
+ 1553  code K77.js 
+ 1554  firebase --help
+ 1555  echo Now 12 Mar 2021 04:06 Z
+ 1556  echo copying agentdbk over to NewtonHnf doing in pieces for a couple legit reasons
+ 1557  cd ~/agentdbk/functions/
+ 1558  ls
+ 1559  echo 2021-03-11-22-59-ad.tar.gz  slightly plumped up usual vm backup from pioneer
+ 1560  tar -xvf 2021-03-11-22-59-ad.tar.gz 
+ 1561  ls -ltrh
+ 1562  ls -l in*
+ 1563  ls K*
+ 1564  ls -ltr K*
+ 1565  rm K6*
+ 1566  ls -ltr K*
+ 1567  rm K4*
+ 1568  rm K8*
+ 1569  ls
+ 1570  rm -i K??.js
+ 1571  y
+ 1572  ls
+ 1573  ls W*
+ 1574  rm -i W.js
+ 1575  rm -i W*.js
+ 1576  ls -lSr
+ 1577  ls *.REPORT
+ 1578  ls -ltrh
+ 1579  du -h
+ 1580  ls -lSr
+ 1581  node index.js
+ 1582  npm list
+ 1583  npm list >0412.REPORT
+ 1584  ls -ltrh
+ 1585  nano 0412.REPORT 
+ 1586  npm install yaml
+ 1587  npm --help
+ 1588  npm install -h
+ 1589  npm install zzzd
+ 1590  ls *.json
+ 1591  npm list
+ 1592  npm list |less
+ 1593  npm install websocket
+ 1594  node npm-debug.log 
+ 1595  nano npm-debug.log 
+ 1596  node --version
+ 1597  echo node version at 04:21 is v4.2.6
+ 1598  date
+ 1599  echo 12 Mar 2021
+ 1600  history
+ 1601  history >0422.HISTORY
+ 1602  echo  https://nodejs.org/
+ 1603  nano hw-express.js
+ 1604  cp hw-express.js hw-ordinary.js
+ 1605  code hw*
+ 1606  ls -ltrh
+ 1607  history
+ 1608  node --version
+ 1609  history >0432.HISTORY
+ 1610  ls hw*
+ 1611  node hw-ordinary.js 
+ 1612  code hw-ordinary.js 
+ 1613  cat hw-ordinary.js 
+ 1614  code hw*
+ 1615  cat hw-ordinary.js 
+ 1616  node hw-ordinary.js 
+ 1617  time-local
+ 1618  echo Ok 04:42 now and node compiles hw-ordinary.js  and it runs uses no exernal nothing
+ 1619  next make an express mini thing work, to wring out npm
+ 1620  echo next make an express mini thing work, to wring out npm
+ 1621  echo 0443 
+ 1622  history >0443.HISTORY
+ 1623  node hw-express.js 
+ 1624  npm list >0444.REPORT
+ 1625  code >0444.REPORT
+ 1626  ls -ltr
+ 1627  code 0444.REPORT 
+ 1628  ls -ltrh
+ 1629  rm 0444.REPORT 
+ 1630  node list
+ 1631  npm list
+ 1632  npm list 2>z
+ 1633  ls -ltrh
+ 1634  nao z
+ 1635  nano z
+ 1636  npm list 
+ 1637  cd node_modules/
+ 1638  ls
+ 1639  du -h .
+ 1640  ls -ltrd */
+ 1641  cd ..
+ 1642  npm install express
+ 1643  echo hmmm looked like that worked
+ 1644  node hw-express.js 
+ 1645  echo GREAT ! http:localhost:3000 gets an WWW of:
+ 1646  Hello World! DanK Tinkers
+ 1647  ls -l *.json
+ 1648  time-local
+ 1649  npm list >0451.REPORT
+ 1650  ls -ltrh
+ 1651  nano 0451.REPORT 
+ 1652  ls -ltrh
+ 1653  cd node_modules/
+ 1654  du -h
+ 1655  ls -ltrd >0453.REPORT
+ 1656  code *.RE*
+ 1657  ls -ltrd */ >0453.REPORT
+ 1658  ls-ltrh
+ 1659  ls -ltrh
+ 1660  code *.REPORT
+ 1661  ls -ltrh
+ 1662  ls -ltrd */ >0453.REPORT
+ 1663  ls -ltrd */ >0456.REPORT
+ 1664  du -h .
+ 1665  du -h . >0457.REPORT
+ 1666  code *.REPORT
+ 1667  cd ..
+ 1668  ls -ltrh
+ 1669  ls *.json
+ 1670  ls -ltrh *.json
+ 1671  npm --help |less
+ 1672  npm uninstall h
+ 1673  npm uninstall hfgdgf
+ 1674  npm uninstall zzzd
+ 1675  npm uninstall express
+ 1676  npm list
+ 1677  node hw-express.js 
+ 1678  npm install express
+ 1679  npm install -g express
+ 1680  sudo npm -g install npm
+ 1681  node hw-express.js 
+ 1682  npm list
+ 1683  npm list >0500.REPORT
+ 1684  code *.REPORT
+ 1685  code 0500.REPORT 
+ 1686  cd node_modules/
+ 1687  ls -ltrh
+ 1688  du -h
+ 1689  du -h .
+ 1690  cd ..
+ 1691  npm install
+ 1692  node hw-ordinary.js 
+ 1693  node hw-express.js 
+ 1694  cd node_modules/
+ 1695  ls -ltrh
+ 1696  ls *.REPORT
+ 1697  code *.REPORT
+ 1698  du -h .
+ 1699  cd ..
+ 1700  ls in*
+ 1701  cd functions/
+ 1702  cd ..
+ 1703  ls *.JSON
+ 1704  ls *.json
+ 1705  cd functions/
+ 1706  ls -ltr *.json 
+ 1707  node index.js 
+ 1708  npm list 2>0505.REPORT
+ 1709  ls -ltrh
+ 1710  npm list 1>0506.REPORT
+ 1711  ls -ltrh
+ 1712  code 50?.REPORT
+ 1713  ls 50?.REPORT
+ 1714  ls 050?.REPORT
+ 1715  ls -ltrh 050?.* 
+ 1716  code -ltrh 050?.* 
+ 1717  code 050?.* 
+ 1718  echo Hmm how to install firebase
+ 1719  echo https://firebase.google.com/docs/cli
+ 1720  echo those are instructions
+ 1721  history >0510.HISTORY
+ 1722  curl -sL https://firebase.tools | bash
+ 1723  curl -sL https://firebase.tools
+ 1724  man curl 
+ 1725  curl --help 
+ 1726  curl --help |less
+ 1727  gsutil ls
+ 1728  gsutil --version
+ 1729  echo gsutil version answers   4.59 seems to work generally
+ 1730  gcloud
+ 1731  gcloud --version
+ 1732  code huh
+ 1733  mv huh hquest0515.TEXT
+ 1734  echo I asked gcloud --veriso it said
+ 1735  echo version is Google Cloud SDK 329.0.0
+ 1736  echo version is alpha 2021.02.19
+ 1737  echo version is beta 2021.02.19
+ 1738  echo version is bq 2.0.65
+ 1739  echo version is core 2021.02.19
+ 1740  echo version is gsutil 4.59
+ 1741  gcloud --version
+ 1742  gcloud survey
+ 1743  firebase
+ 1744  echo https://www.npmjs.com/package/firebase-tools
+ 1745  npm install -g firebase-tools
+ 1746  sudo npm install -g firebase-tools
+ 1747  echo It did a huge amount of X11 flashing and unpacking, flashed by
+ 1748  echo said stuff abotu versioning of NPM and node make sorta installed
+ 1749  history
+ 1750  sudo ksdjhfkjshk
+ 1751  sudo whoami
+ 1752  whaomai
+ 1753  whoami
+ 1754  firebase
+ 1755  sudo npm -g triplebeam
+ 1756  sudo npm -g install triplebeam
+ 1757  sudo npm -g install triple-beam
+ 1758  firebase
+ 1759  node hw-ordinary.js 
+ 1760  node hw-express.js 
+ 1761  gsutil 
+ 1762  gsutil list
+ 1763  gsutil lifecycle s
+ 1764  gsutil --help |list
+ 1765  gsutil --help |less
+ 1766  gcloud --help
+ 1767  time-local
+ 1768  node index.js 
+ 1769  npm --help |less
+ 1770  npm h find
+ 1771  npm  find -h
+ 1772  npm  info -h
+ 1773  npm  view -h
+ 1774  npm view express
+ 1775  npm view express |less
+ 1776  npm find express
+ 1777  echo npm install -g npm-install-missing
+ 1778  echo https://www.npmjs.com/package/npm-install-missing
+ 1779  echo 05:33 12 Mar 2021
+ 1780  echo On NewtonHnf 
+ 1781  cd is has been for this fun  ~/agentdbk/functions/
+ 1782  history >0534.HISTORY
+ 1783  sudo npm install -g npm-install-missing
+ 1784  npm --help
+ 1785  npm --help |less
+ 1786  npm init h
+ 1787  npm uninstall express
+ 1788  node hw-express.js 
+ 1789  sudo npm -g install express
+ 1790  cd node_modules/
+ 1791  ls -ltrh
+ 1792  cd ..
+ 1793  npm install express
+ 1794  cd node_modules/
+ 1795  ls -ltr
+ 1796  cd express/
+ 1797  ls -l
+ 1798  cd ..
+ 1799  ls *.json
+ 1800  ls-ltr *.json
+ 1801  ls -ltr *.json
+ 1802  tar -czf 0539_all_json.tar.bz *.json
+ 1803  ls-ltrh
+ 1804  ls -ltrh
+ 1805  npm uninstall express
+ 1806  npm uninstall -g fexpress
+ 1807  npm uninstall -g express
+ 1808  npm -g uninstall  express
+ 1809  sudo npm -g uninstall  express
+ 1810  node hw-express.js 
+ 1811  npm install express --save
+ 1812  ls -ltrh
+ 1813  node hw-express.js 
+ 1814  echo  minus -minus save does a lot I think
+ 1815  firebase --help
+ 1816  npm install triple-beam --save
+ 1817  echo X11 flashy by loked likwe it worked 'or something'
+ 1818  cd node_modules/
+ 1819  ls -ltrh
+ 1820  cd ..
+ 1821  firebase --help
+ 1822  sudo npm -g install triple-beam --save
+ 1823  sudo npm  install -g triple-beam --save
+ 1824  sudo npm  install  triple-beam --save
+ 1825  firebase --help
+ 1826  node --version
+ 1827  echo answers v4.2.6
+ 1828  npm --version
+ 1829  echo answerx 3.5.2
+ 1830  echo answers 3.5.2
+ 1831  echo firebase seems like it points to a lien with this triple-beam
+ 1832  echo but more like it doesn't understand the syntax of the line then its missing
+ 1833  '
+ 1834  echo but more like it doesnt understand the syntax of the line then its missing
+ 1835  '
+ 1836  history
+ 1837  history >0549.HISTORY
+ 1838  du -h
+ 1839  ls *.HISTORY
+ 1840  tar -czf wip_HISTORY_0614.tar.bz *.HISTORY
+ 1841  ls -ltrh
+ 1842  toagentdbk wip_HISTORY_0614.tar.bz 
+ 1843  uptime
+ 1844  exit
+ 1845  cd ~/Computer_Support_123/Hard_drives/SID/
+ 1846  echo 12 Mar 2021 14:24 Z
+ 1847  sudo fdisk -l
+ 1848  sudo fdisk -l |sd
+ 1849  sudo fdisk -l |grep sd
+ 1850  sudo gparted
+ 1851  time-local
+ 1852  history
+ 1853  echo Now 12 Mar 2021 17:39 Z
+ 1854  cd ~/MyWWW/agentdbk/Port_to_Nhnf/
+ 1855  nano now.TEXT
+ 1856  history
+ 1857  seeagentdbk >1749.REPORT
+ 1858  code 1749.REPORT 
+ 1859  gsutil cp gs://staging.agentdbk.appspot.com/versions-vm-12Feb2021.tar.bz v
+ 1860  mv v versions-vm-12Feb2021.tar.bz
+ 1861  chmod 444 versions-vm-12Feb2021.tar.bz 
+ 1862  code v*
+ 1863  tar -xf versions-vm-12Feb2021.tar.bz 
+ 1864  ls
+ 1865  chmod 444 *
+ 1866  ls -ltrh
+ 1867  code *
+ 1868  cd ..
+ 1869  cd functions/
+ 1870  ls -ltrh
+ 1871  ls K*
+ 1872  ls -ltrh
+ 1873  ls i*.js
+ 1874  ls -l index.js 
+ 1875  chmod 444 index.js 
+ 1876  touch index.js 
+ 1877  ls-time.sh 
+ 1878  cd node_modules/
+ 1879  du -h
+ 1880  cd ..
+ 1881  history
+ 1882  history >1746.HISTORY
+ 1883  less 1746.HISTORY 
+ 1884  cat ../Port_to_Nhnf/node_version.REPORT 
+ 1885  echo node version in sending system is: v8.13.0
+ 1886  node -version
+ 1887  node --version
+ 1888  v4.2.6
+ 1889  echo v4.2.6
+ 1890  listneing system 4.2.6 saeems kind old I suppose
+ 1891  echo better fix it now
+ 1892  17:48 Z
+ 1893  sudo apt show nodejs
+ 1894  sudo -a apt show nodejs
+ 1895  sudo apt show nodejs
+ 1896  sudo apt -a show nodejs
+ 1897  sudo -a apt show nodejs
+ 1898  sudo  apt -y show nodejs
+ 1899  sudo  -y apt show nodejs
+ 1900  sudo  apt  -a show nodejs
+ 1901  node --version
+ 1902  echo is 4.2.6
+ 1903  sudo apt upgrade nodejs
+ 1904  code More_1802_Upgrading_node_js.REPORT
+ 1905  ls -ltrh
+ 1906  date 
+ 1907  echo 18:03
+ 1908  node --version
+ 1909  exit
+ 1910  t
+ 1911  echo Now 13 Mar 2021 21:51 Z
+ 1912  history >2151.REPORT
+ 1913  ls-time.sh 
+ 1914  sudo wa
+ 1915  sudo cp -pr ~/MyWWW/ .
+ 1916  exit
+ 1917  t
+ 1918  wait progress
+ 1919  watch progress -q
+ 1920  sudo watch progress -q
+ 1921  exit
+ 1922  progress -m
+ 1923  progress --help
+ 1924  watch --help
+ 1925  watch progress
+ 1926  df -h
+ 1927  cd /media/dank/Cherry/
+ 1928  ls-time.sh 
+ 1929  du -h MyWWW/
+ 1930  sudo cp -pr ~/About_WIYL/ .
+ 1931  exit
+ 1932  cd MyWWW/agentdbk/functions/
+ 1933  ls-time
+ 1934  ls-time.sh 
+ 1935  cp i00.js i01.js
+ 1936  chmod 444 i00.js 
+ 1937  ls -l *.js
+ 1938  ls *.js
+ 1939  cat ru.sh
+ 1940  node i01.js 
+ 1941  code i01.js 
+ 1942  cp index.js i03.js
+ 1943  ls -ltr i*
+ 1944  code index.js 
+ 1945  ls-time.sh 
+ 1946  chmod 777 i03.js 
+ 1947  nodew i03.js 
+ 1948  node i03.js 
+ 1949  code i03.js 
+ 1950  node i03.js 
+ 1951  code i03.js 
+ 1952  df -h
+ 1953  sudo w8
+ 1954  exit
+ 1955  echo 13 Mar 2021 22:53
+ 1956  cd ~/LINUX_Installs/progress/
+ 1957  https://github.com/Xfennec/progress
+ 1958  history
+ 1959  git init
+ 1960  git clone https://github.com/Xfennec/progress
+ 1961  cd progress/
+ 1962  ls
+ 1963  nano README.md 
+ 1964  apr install progress
+ 1965  apt install progress
+ 1966  sudo apt install progress
+ 1967  nano 2256.REPORT
+ 1968  progress --help
+ 1969  progress -
+ 1970  progress --version >progress_version.REPORT
+ 1971  ls
+ 1972  cat *.REPORT
+ 1973  cd /media/dank/Cherry/
+ 1974  ls-time.sh 
+ 1975  cd vm-agentdbk-f
+ 1976  ls
+ 1977  cd functions/
+ 1978  du -h .
+ 1979  cd  ..
+ 1980  cd ..
+ 1981  sudo cp -pr ~/MyWWW/   .
+ 1982  exit
+ 1983  node index.js 
+ 1984  cd /media/dank/TUNA/
+ 1985  ls-time.sh 
+ 1986  cd NhCp06Ma21/
+ 1987  ls-time.sh 
+ 1988  df -h
+ 1989  sudo cp -pr ~/MyWWW/ .
+ 1990  du -h ./MyWWW/
+ 1991  exit
+ 1992  t
+ 1993  cd About_WIYL/Program\ improvements/
+ 1994  ls-time.sh 
+ 1995  cp jHere.ipynb 2019.ipynb
+ 1996  ls -l >seeitnow1.TEXT
+ 1997  grep MILESTONE seeitnow1.TEXT 
+ 1998  ls -ltr >seeitnow1.TEXT
+ 1999  grep MILESTONE seeitnow1.TEXT  
+ 2000  man cut
+ 2001  ls -ltr
+ 2002  grep MILESTONE seeitnow1.TEXT  >seeitnow2.TEXT
+ 2003  code seeitnow2.TEXT 
+ 2004  tr seeitnow2.TEXT 
+ 2005  tr -help
+ 2006  tr --help
+ 2007  man tr
+ 2008  ts -s ' ' seeitnow2.TEXT 
+ 2009  tr -s ' ' seeitnow2.TEXT 
+ 2010  tr -S ' ' seeitnow2.TEXT 
+ 2011  tr -s' ' seeitnow2.TEXT 
+ 2012  cat seeitnow2.TEXT 
+ 2013  sed -n -e 's/^.*stalled: //p' seeitnow2.TEXT 
+ 2014  sed -n -e 's/MILESTONE //p' seeitnow2.TEXT 
+ 2015  sed -n -e 's/MILESTONE//p' seeitnow2.TEXT 
+ 2016  ls -ltrh
+ 2017  sed -n -e 's/MILESTONE//p' seeitnow2.TEXT 
+ 2018  awk '{$1=$2=""; print $0}' seeitnow2.TEXT 
+ 2019  awk '{$1=$2=$3=$4""; print $0}' seeitnow2.TEXT 
+ 2020  awk '{$1=$2=$3=$4=""; print $0}' seeitnow2.TEXT 
+ 2021  awk '{$1=$2=$3=$4==$5=$6=$7""; print $0}' seeitnow2.TEXT 
+ 2022  awk '{$1=$2=$3=$4==$5=$6=$7=""; print $0}' seeitnow2.TEXT 
+ 2023  awk '{$1=$2=$3=$4=$5=$6=$7=""; print $0}' seeitnow2.TEXT 
+ 2024  awk '{$1=$2=$3=$4=$5=$6=$7=$8=$9""; print $0}' seeitnow2.TEXT 
+ 2025  awk '{$1=$2=$3=$4=$5=$6=$7=$8=$9=""; print $0}' seeitnow2.TEXT 
+ 2026  cat
+ 2027  man cat
+ 2028  history
+ 2029  nano "Cool report slicer.HOWTO"
+ 2030  awk '{$1=$2=$3=$4=$5=$6=$7=$8=$9=""; print $0}' seeitnow2.TEXT >3
+ 2031  cat 3
+ 2032  awk '{$1=$2=$3=$4=$5=$6=$7=$8=$9=$10=""; print $0}' seeitnow2.TEXT >3
+ 2033  awk '{$1=$2=$3=$4=$5=$6=$7=$8=$9=$10=$11=""; print $0}' seeitnow2.TEXT >3
+ 2034  awk '{$1=$2=$3=$4=$5=$6=$7=$8=$9=$10=""; print $0}' seeitnow2.TEXT >3
+ 2035  awk '{$1=$2=$3=$4=$5=$6=$7=$8=$9=""; print $0}' seeitnow2.TEXT >3
+ 2036  awk '{$1=$2=$3=$4=$5=$6=$7=$8=""; print $0}' seeitnow2.TEXT >3
+ 2037  nano "Cool report slicer.HOWTO"
+ 2038  awk '{$1=$2=$3=$4=$5=$6=$7=$8=$9=""; print $0}' seeitnow2.TEXT
+ 2039  awk '{$1=$2=$3=$4=$5=$6=$7=$8=$9=""; print $0}' seeitnow2.TEXT >seeitnow3.TEXT
+ 2040  cat seeitnow3.TEXT 
+ 2041  nano seeitnow3.TEXT 
+ 2042  nano seeitnow2.TEXT 
+ 2043  awk '{$1=$2=$3=$4=$5=$6=$7=$8=$9=""; print $0}' seeitnow2.TEXT 
+ 2044  awk '{$2=$3=$4=$5=$6=$7=$8=$9=""; print $0}' seeitnow2.TEXT 
+ 2045  awk '{$1=$3=$4=$5=$6=$7=$8=$9=""; print $0}' seeitnow2.TEXT 
+ 2046  awk '{$1=$2=$3=$4=$5=$6=$7=$8=$9=""; print $0}' seeitnow2.TEXT 
+ 2047  cat seeitnow2.TEXT 
+ 2048  awk '{$1=$2=$3=$4=$5==""; print $0}' seeitnow2.TEXT 
+ 2049  awk '{$1=$2=$3=$4=$5=""; print $0}' seeitnow2.TEXT 
+ 2050  awk '{$1=$2=$3=$4=$5=""; print $0}' seeitnow2.TEXT >seeitnow3.TEXT
+ 2051  awk '{$4=""; print $0}' seeitnow3.TEXT
+ 2052  awk '{$4=""; print $0}' seeitnow3.TEXT >seeitnow4.TEXT
+ 2053  cat seeitnow4.TEXT 
+ 2054  cp seeitnow4.TEXT 'What was done when.REPORT'
+ 2055  ls-time.sh 
+ 2056  cat 'What was done when.REPORT' 
+ 2057  ls-time.sh 
+ 2058  history >"Cutting columns out.HOWTO"

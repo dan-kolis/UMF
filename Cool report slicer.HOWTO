@@ -1,0 +1,4 @@
+Removes columns 1 to 9
+awk '{$1=$2=$3=$4=$5=$6=$7=$8=$9=""; print $0}' seeitnow2.TEXT 
+
+

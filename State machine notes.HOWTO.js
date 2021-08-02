@@ -1,0 +1,2 @@
+this.setState( { myChangeClose: 'isayclose' } );
+

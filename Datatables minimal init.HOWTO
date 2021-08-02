@@ -1,0 +1,25 @@
+
+// Yup looks at something
+function c3()
+{
+        alert('ok c3 program going');
+        $('#table1').dataTable({
+            "columnDefs": [{
+                "width": "5%",
+                "targets": 0
+            }]
+        });
+}
+
+
+// A button adds local table content as a test
+$("#applylocaltable").click(function() 
+{
+        $('#basetablememo').DataTable({
+            data: dataNixSmall,
+            "autoWidth": true
+        });
+});
+
+
+

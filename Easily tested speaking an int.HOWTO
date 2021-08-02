@@ -1,0 +1,8 @@
+Easy tested speaking an int.HOWTO
+
+    // See version this Html
+    $("#btnver").click(function() {
+        let m = "HTML Version: " + vNow; 
+        sayInteger(6);
+        startHelperModalAsFlasherFact( m, 'medium-middle', localId3rebuild ); });
+

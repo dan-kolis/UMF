@@ -1,0 +1,305 @@
+
+/* Top level tiles and space, some colors too */
+  body { background-color: #777; }
+  html { margin: 17px 9px; padding: 4px; }
+  p  { font-size: 20px; }
+  h1 { Margin: 0px; }
+  h2 { Color: white; margin: 1px 0px 4px 2px; Font-size: 159%; }
+  br { Margin: 0px 0px 0px 0px; }
+
+/* Top part of page a masthead of sorts is like this */
+  #navtop { Width: 1300px; Float: left; Padding: 23px; Margin: 1px 1px 1px 1px; 
+            Background-color: #37A; }
+
+/* General look slot number main one */ 
+  #slotnumbershowsinbasic { Color: red; Font-size: 150%; }
+
+/* Slot number in detail(s) */
+  #slotnumbershowsindetail { Color: red; Font-size: 150%; }
+
+/* Serial number maybe module name */
+  #snandname { Color: red; Font-size: 150%; }
+
+/* Toasts are alerts in a rectangular area */
+  #toastarea 
+  {
+    Position: absolute;
+    Top: 60px;
+    Left: 880px;
+    Width: 325px;
+    Height: 120px;
+    Background-color: #888;
+    Border: 4px solid;
+    Border-radius: 25px;
+    Border-color: #500;
+    Opacity: 0.1;
+    Display: none;
+  }
+
+/* Precise placement of a main graphic thats textual */
+  #onlymggraphic { Position: relative; Top: 1px; Left: 1px; Clear: both; }
+
+/* Specialized for debugging usually */
+  #rarelyusedtestbuttons button { Margin: 0px 0px 3px 0px; }
+
+/* Possible edges can be made for table holder, some ideas here use
+   terms related to ovals, as that was the original art look 
+   these are doubled up so the extensice css can be reused for
+   many projects. Keep that intact or revise carefully, like copy
+   and leave these named and usable */
+  .usualtableframer1, .radiusused1
+  {
+    Background-color: #728ca9;
+    Float: left;
+    Padding: 17px;
+    Margin: 9px 10px 10px 10px;
+    Border: 1px solid;
+    Clear: both;
+    Border-color: #555;
+    Min-width: 100%;
+  }
+
+/* Special button */
+  .specialbutton
+  { Margin: 4px; Display: inline; Width: 194px; Font-size: 120%; Padding: 3px; }
+
+/* A paragraph concept with inner captions and buttons */
+  .horizbuttontitle label
+  { Display: block; Width: 215px; Float: left; Margin: 0px 0px 0px 0px; Padding: 12px 0px 0px 105px; Color: White; Font-weight: bold; }
+
+  .horizbuttontitle button
+  { Margin: 4px; Display: inline; Width: 194px; Font-size: 120%; Padding: 3px; }
+
+/* Denser paragraphs with buttons */
+  .denserbuttontitle label
+  { Display: block; Width: 215px; Float: left; Margin: 0px 0px 0px 0px; Padding: 0px 0px 0px 65px; Font-Size: 115%; Color: White; }
+
+  .denserbuttontitle button
+  { Margin: 3px; Display: inline; Width: 155px; Font-size: 118%; Padding: 2px; }
+
+/* Text line in each oval is a h header  */
+  .ovaltoplinetouchup { Margin: 7px 5px 5px 25px; Padding: 25px 1px 1px 10px; 
+                        Background: #555; Color: #eeb; Border: 1px solid red; 
+                        Font-size: 115%; Letter-spacing: 0.13em; Height: 80px; } 
+
+/* MOSTLY for buttons, making text bigger makes the button bigger too */
+  .largestuff { Font-size: 70%; Color: black; Width: 12%; Margin: 3px; 
+                Padding: 7px 4px 7px 4px; Height: 7%; }
+
+/* Titles for these buttons above them usually */                
+ 	.cmdtitle
+		{	Width: 12%;  Display: inline-block; Color: purple; 
+			Margin: 4px; Padding: 4px; Margin-left: 4px; Font-size: 79%; }
+  
+
+/* MOSTLY for wider buttons */
+.widestuff { Font-size: 105%; Color: black; Width: 197px; Margin: 5px; 
+  Padding: 6px 6px 6px 6px; }
+
+                /* MOSTLY for inputs, making text bigger makes the button bigger too */
+  .largestuffbinp { Font-size: 87%; Color: blue; Width: 140px; Margin: 5px; 
+                    Font-weight: bold; Padding: 6px 2px 6px 2px; 
+                    Text-align: center; }
+
+  /* MOSTLY for special inputs making text bigger makes the button bigger too */
+  .morelargestuff { Font-size: 105%; Color: black; Width: 137px; Margin: 5px; 
+                    Padding: 6px 6px 6px 8px; Height: 6%; }
+
+/* MOSTLY for top row buttons */
+  .topstuff { Font-size: 65%; Font-weight: bold; Color: blue; Width: 70px; 
+              Margin: 5px 3px 5px 3px ; Padding: 7px 3px 7px 3px;  Height: 6%; }
+
+/* Little corner of oval region */
+.controlbutton
+{ Float: right; 
+  width: 146px; height: 33px;
+  Font-size: 80%;
+  Padding: 0px 0px 0px 0px;
+  Margin: -3px 13px 0px 20px;
+}
+
+/* Just for buttons, making text bigger makes the button bigger, be we want wider now too */
+  .widertextbutton { Font-size: 135%; Color: black; Width: 320px; Margin: 5px; Padding: 6px 6px; }
+
+/* Look of a header of supplementary info */
+  .detailstitlesetting { Font-size: 135%; Font-weight: 800; Color: White; }
+
+/* Used just for turning on and off more info in corners of ovals */
+  .detailsbtn { Font-size: 135%; Color: black; Margin: 5px; Padding: 5px 7px; }
+
+/* Used for buttons set to the same sizes independent of text in them */
+  .groupedbtn { Width: 145px; Font-size: 125%; Color: black; Margin: 5px; Padding: 5px 7px; }
+
+/* Group buttons when they have to be wider */
+  .groupedbtnwider { Width: 235px; Font-size: 125%; Color: black; Margin: 5px; Padding: 5px 7px; }
+
+/* Bigger buttons */
+  .biggerbtn { Font-size: 135%;  }
+
+/* Important line area around it */
+  .specialenumarea { Background: #ddd; Padding: 1px 1px 1px 9px; }
+
+/* Important line with actual stuff that matters showing */
+  .specialenumdetail { Color: black; Font-size: 150%; margin-left: 12px; }
+
+/* Inner part of ovals for some text */
+  .dialogwelike p { Color: black; Font-size: 130%; Margin: 7px 0px 10px 13px; Display: block; }
+
+/* Bigger text for inputs usually */
+  .biggerinputtext { Font-size: 140%; }
+
+/* Usually near a more or detail button a big fact */
+  .noticableidea { Font-size: 140%; Color: white; }
+
+/* Used to detect this css is connecting, we don't usually use h6 anyway */
+  h6 { Color: red; }
+
+/* Just A little space vertically please */
+  .teenyverticalspace { Display: block; Margin-top: 7px; Line-height: 3px; }
+
+/* A table look for facts and maybe configurations, any stuff like that */
+  .sortafancytable         { 
+                              table-layout: fixed;
+                              margin-left: 2em;
+                              margin-right: 2em;
+                              Border-collapse: collapse;   
+															Border-width: 3px; Border-color: #00c; 
+                           }
+  .sortafancytable th      {	Font-size: 24px; Font-weight: bolder; 
+															Border-collapse: collapse; Background-color: #acc8cc; 
+															Border-width: 2px; Padding: 4px 8px 8px 8px; 
+															Border-style: solid; Border-color: #00c; 
+															Text-align: left; Color: #00c;  Letter-spacing: 0.2em; 
+                           }
+  .sortafancytable tr      { 	Background-color: #d4e3e5; 
+													 }
+  .sortafancytable td      { 	Font-size: 18px; Font-weight: 800; 
+															Border-collapse: collapse; Border-width: 2px; 
+															Padding: 7px 0px 7px 15px;
+                             	Border-style: solid; Border-color: #00c; Color: black; 
+													 }
+  .sortafancytable caption { 	Font-size: 24px; Font-weight: bolder; Color: black; 
+															Text-align: left; 
+													 }
+
+/* A table look for protein facts Orig kick at it 15 May 2020 */
+.proteinfacttable { 
+  Color: black;
+  Table-layout: fixed;
+  Margin-left: 2em;
+  Margin-right: 2em;
+  Border-collapse: collapse;   
+  Border-width: 2px; Border-color: black;
+  Font-size: 13px; 
+}
+
+/* Most facts are this data lookie, right ! Its important */
+.proteinfacttable td { 
+  Font-weight: 800; Padding: 7px 7px 7px 7px;
+  Font-size: 13px; Color: black;
+}
+
+.proteinfacttable th { Font-size: 16px; Font-weight: bolder; 
+  Background-color: #acc8cc; 
+  Padding: 3px; 
+  Text-align: center; Color: #00c;  Letter-spacing: 0.2em; 
+  Font-size: 18px;
+}
+
+/* Stripes in the rows */
+.proteinfacttable tr:nth-child(even) { Background-color: #c4e3e5; } 
+.proteinfacttable tr:nth-child(odd)  { Background-color: #d0efe5; }
+
+/* Changes by column. This column is most conceptually important ( leftmost ) */
+/* So it may differ from other intentionaly a lot */
+.proteinfacttable td:nth-child( 1 )  { 
+  Background-color: #999; Max-Width: 150px; vertical-align: middle; font-size: 130%;
+  Color: black;
+}
+
+.proteinfacttable td img { Width: 100px; Max-width: 100px;
+  Min-width: 100px; } 
+
+.proteinfacttable caption { Font-size: 10px; Font-weight: bolder; Color: black; 
+  Text-align: left; 
+}
+
+.proteinfacttable th {
+  border: 2px solid;
+  border-collapse: collapse;
+  border-color: darkgreen;
+}
+
+.proteinfacttable td {
+  border: 2px solid;
+  border-collapse: collapse;
+  border-color: darkgreen;
+}
+
+
+/* A table look for tables with concepts on the left vertically color and so on wise */
+  .orthotable         { Font-size: 12px; Color: #333333; Width: 100%; Border-width: 2px; Border-color: #00c; 
+                        Border-collapse: collapse; }
+  .orthotable th      { Font-size: 17px; Font-weight: Bolder; Background-color: #acc8cc; Border-width: 2px; 
+                        Padding: 4px 8px 8px 8px; Border-style: solid; Border-color: #00c; Text-align: left; 
+                        Color: #00c;  Letter-spacing: 0.1em; }
+  .orthotable tr      { Background-color: #d4e3e5; }
+  .orthotable td      { Font-size: 17px; Font-weight: Bold ; Border-width: 2px; Padding: 7px 0px 7px 15px; 
+                        Border-style: solid; Border-color: #00c; Color: black; Background-color: #b4e3e5; }
+  .orthotable caption { Font-size: 18px; Font-weight: bold ; Color: #0000ff; Text-align: left; }
+
+
+/* Title for a one of input box like username */
+  .specialtitle { Font-size: 175%; Color: #222; Margin-left: 4px; Font-weight: bolder; }
+
+/* Toast */
+    #flash_wrapper.flashyoverlay:before { Content:" "; Width: 20%; Height: 15%; Position: fixed; Z-index: 1000; Top: 1px; Left: 1px; 
+                                          Background: rgba( 0, 0, 0, 0 ); }
+ 
+    #flash_wrapper.flashyoverlay #flash_window { Display: block; }
+
+    #flash_commanddiv { Text-align: right; }
+
+    #flash_closer, #flash_holder { Color: white; Font-size: 127%; }
+
+    #flash_window { Display: none; Z-index: 2000; Position: fixed; Left: 50%; Top: 50%; Width: 550px; Padding: 4px 35px; 
+                    Margin: 30px 30px 30px 30px;  Background: #353; Border: 4px solid black; Border-radius: 9px; 
+                    Box-shadow: 1px 5px 10px 5px rgba( 1, 1, 1, 0.45) } 
+
+  #flash_msgtop { Color: white; Font-size: 215%; }
+
+  #flash_innerspace { Width: 1000px; }
+
+  #flash_msgmiddle { Text-align: center; Color: yellow; Font-size: 161%; }
+
+/* Modals */
+  #modal_wrapper_1.overlay:before { Content:" "; Width: 100%; Height: 100%; Position: fixed; Z-index: 1000; 
+                                    Top: 0px; Left: 0px; Background: rgba( 0, 0, 0, 0.2 ) }
+     
+  #modal_wrapper_1.overlay #modal_window_1 { Display: block; }
+      
+  #modal_window_1 { Display:none; Z-index: 2000; Position: fixed;  Left: 50%; Top: 50%; Width: 715px; Padding: 10px 20px;
+                    Background: #aaa; Border: 2px solid blue; Border-radius: 10px; Box-shadow: 0 0 10px rgba( 0, 0, 0, 0.5) } 
+  
+  #modalentryfield1 { Width: 580px; Height: 40px; Color: red; Font-size: 175%; }
+
+  #modal_wrapper_2.overlay:before { Content:" "; Width: 100%; Height: 100%; Position: fixed; Z-index: 1000; 
+                                    Top: 0px; Left: 0px; Background: rgba( 0, 0, 0, 0.2 ) }
+      
+  #modal_wrapper_2.overlay #modal_window_2 { Display: block; }
+     
+  #modal_window_2 { Display:none; Z-index: 2000; Position: fixed; Left: 50%; Top: 50%; Width: 715px; Padding: 10px 20px;
+                    Background: #aaa; Border: 2px solid blue; Border-radius: 10px;Box-shadow: 0 0 10px rgba( 0, 0, 0, 0.5) } 
+
+  .dressyquestion { Color: blue; Font-size: 217%; Font-weight: 900; }  
+
+  .innerbuttonymodal img { Width: 40px; Margin-top: 2px; }
+  .innerbuttonymodal button { Font-size: 140%; }
+
+/* Focused question(s) as a modal form */
+  .modalinputfield button { Font-size: 150%; Margin: 5px 9px 11px; }
+ 
+/* A close thing in most modals a close button usually a div */
+  .closeformodalclicker { Text-align: Right; Color: black; Font-size: 137%;}
+
+
