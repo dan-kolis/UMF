@@ -1,0 +1,14 @@
+01 Aug 2021 20:51
+
+Copy on PIONEER of just the html client side of UMF.
+
+source is .??./cloud47
+
+some obvious redundant copies in it erased rest ready to copy to github
+
+name there UMF is private now
+
+from PIONEER / About_WIYL / UMF
+
+-------------------------------------
+
