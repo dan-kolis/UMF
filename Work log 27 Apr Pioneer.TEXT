@@ -1,0 +1,182 @@
+15:30 Get used to environment
+
+15:45 Ok to use Python for local html server like:
+  Cmd box
+  python -m http.server
+  starts at default of port 8000 can change just add # to line
+  calls
+    http://127.0.0.0.1/umf.html
+
+  Current change main focus of work to index.html
+
+  Working with REACT_TableOptions to clone how it closes calls helper etc
+  make the changes into REACTpickLine
+
+  
+// Working modal thinking 27apr21
+function popUpProgressShow()
+{
+    let aNameAction = "popup", aHin = 'fjksdjfskj';
+    REACTprogressShow( { L1: aNameAction, L2: aHin, L3: 'fhf6ghoi',
+                                MO: 'Call back to home base', howclose: 'waitforclick' },              
+                               'top-right' );
+}
+
+16:42
+
+22:39
+Move to ./cloud46
+
+Width of screen versus table serious kick at it
+
+https://www.w3schools.com/css/css_rwd_grid.asp
+
+
+28 Apr 2021 14:40
+
+AbsorbUiThing
+mwm_hunkbasics
+
+modlocalname3
+SetLocalMemName()
+  AbsorbUiThing( 'hnasep', hN, msg );
+    if( aKind == 'hnasep')      { allHunks[ n ].localhunktitlePlain = aChT; }    
+localhunktitlePlain
+
+function saveOneHunkLocally( tNum, a1mSfacts, frmjQdT, metaInf, daHeads, daBody, aKind )
+
+                    localhunktitleFormatted: bTi,
+                    localhunktitlePlain: '', 
+
+
+localhunktitleFormatted: "[ 2 ] Four legs on most dogs"
+localhunktitlePlain: "Four legs on most dogs"
+
+REACToneLiner
+
+reactModalsaysGetThisHunk()
+  RetrieveHunkContentFromLocalIdb()
+    RestoreHunkFromLocalIdb()
+  DOMfillTableBigtime
+  
+serverhunktitle: "NA", edithow: "none", …}
+aboutedits: "none"
+aboutfields: "min"
+aboutstorage: "local"
+appendstuff: false
+edithow: "none"
+localhunktitleFormatted: "[ 2 ] More meta in me"
+localhunktitlePlain: "More meta in me"
+serverhunktitle: "NA"
+
+
+// Restore SOME metadata from an object 28apr21
+function replaceMETASInTablWeLike( tableN, daM )
+{
+    // Replace meta data carefully
+
+    let uz;         // Troubleshooting matters
+
+    debugger
+
+    uz = daM.localhunktitleFormatted; AbsorbUiThing(    'hnasef',       tableN, uz );
+    uz = daM.localhunktitlePlain;     AbsorbUiThing(    'hnasep',       tableN, uz );
+    uz = daM.serverhunktitle;         AbsorbUiThing(    'srvrhnkti',    tableN, uz );
+
+    //localhunktitlePlain: "More meta in me"
+    //serverhunktitle: "NA"
+
+}
+
+18:54
+
+20:11
+
+  // Some idea is clicked, deligate what to do, shut down modal, start up hint one too
+  doMainIdea( littleCode, sayMsg, helperIdea )
+  {
+    REACT_IO.tableoptions.picked = littleCode;
+    REACT_IO.tableoptions.forHumans = sayMsg; 
+    REACT_IO.tableoptions.lineHint = helperIdea; 
+    
+    this.setState( { myChangeClose: 'isayclose' } );
+    this.localExeForDone = popUpHeadsUp; 
+  }
+
+
+One or the other is getting table clicks at any moment:
+          DOMsetupTableTouchingEvents()
+          humanEditTableCellTry()
+
+3913
+
+function DOMsetupTableTouchingEvents( aN )
+22:10
+
+
+29 Apr 2021
+19:49
+lookAtThisViaWWW
+
+ErnestBorgnine
+
+21:16
+
+blech2() test key blasts these to concole. figuring this otu for sure is essentail.
+
+    let dt = $( '#table2' );
+
+  console.log( 'TEST BATCH 1');
+    console.log( dt.html() );
+    console.log( dt.find('td') );
+    console.log( dt.find('td').text() );
+    console.log( dt.find('td').eq(1).text() );
+    console.log( dt.find('td').eq(0).text() );
+    console.log( dt.find('tr').eq(0).text() );
+    console.log( dt.find('tr').eq(1).text() );
+    console.log( dt.find('tr').html() );
+
+  console.log( 'TEST BATCH 2');
+  let daCol = 0;
+    $('#table2 tr').each(function() {
+    var someItem = $(this).find("td").eq( daCol ).text();    
+    console.log( '-- ' + someItem );
+  });
+
+
+Was helpful:
+https://stackoverflow.com/questions/376081/how-to-get-a-table-cell-value-using-jquery
+
+
+Maybe good dont know:
+https://www.geeksforgeeks.org/how-to-dynamically-add-remove-table-rows-using-jquery/
+
+
+
+Reminder:
+$("#result").html( "JQ can write to the screen too" );
+
+
+https://datatables.net/forums/discussion/36627/event-listeners-not-working-for-contents-in-next-page
+
+https://www.datatables.net/reference/event/#buttons
+
+01 May 2021
+
+14:45
+  https://datatables.net/plug-ins/api/#fnPagingInfo
+
+
+  https://datatables.net/examples/advanced_init/events_live.html
+
+  
+
+  19:27
+tblDATATABLES[ table number ]
+
+Might be many of these al start with WORKX_{something}
+
+<!-- Working examples not in line as real code-->
+<script src="WORKX_Better_Datatables.js"
+
+

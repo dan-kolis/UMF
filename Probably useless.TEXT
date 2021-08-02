@@ -1,0 +1,12 @@
+
+/*
+$("#" + dT + " td").click(function() {
+    var column_num = parseInt( $(this).index() ) + 1;
+    console.log( "dungeun1: " + $(this).index() );
+    var row_num = parseInt( $(this).parent().index() )+1;
+    console.log( "dungeun2: " + $(this).parent().index() );
+    let m = row_num.toString() + " " + column_num.toString();
+    $("#result").html( "Row_num =" + row_num + "  ,  Rolumn_num ="+ column_num );
+    alert( m );
+});
+*/

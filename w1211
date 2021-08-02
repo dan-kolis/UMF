@@ -1,0 +1,48 @@
+
+// Semi running code but hopefully all 100 % known good
+
+
+// A click to table2 shows the data cell on console 01May21
+function t2010()
+{
+    let dT;
+    dT = "mytable8";
+    dT = "table2";
+
+    let mMore = "tbody";
+    let clickMore = 'tr td';
+
+    $( "#" + dT + " " + mMore ).on( "click", clickMore, function() 
+    {
+        alert( 'Look at console for a zebra' );
+        console.log( 'zebra: ' + $( this ).text() ) ;
+    });
+  }
+
+  
+  function t2010()
+  {
+      let dT;
+      dT = "mytable8";
+      dT = "table2";
+  
+      let mMore = "tbody";
+      let clickMore = 'tr td';
+  
+      $( "#" + dT + " " + mMore ).on( "click", clickMore, function() 
+      {
+          alert( 'Look at console for a zebra-32' );
+          console.log( 'zebra: ' + $( this ).text() ) ;
+      });
+    }
+  
+    
+  //  $(document).ready(function() {
+//    var table = $('#example').DataTable();
+     
+//    $('#example tbody').on('click', 'tr', function () {
+//        var data = table.row( this ).data();
+//        alert( 'You clicked on '+data[0]+'\'s row' );
+//    } );
+//} );
+
