@@ -1,0 +1,104 @@
+
+    .dataTables_length {
+         Margin: 1px 1px 1px 1px;
+        Font-size: 170%;
+        Font-weight: bolder;
+        Padding: 11px 4px 4px 10px; 
+        Background: #444; 
+        Color: #eeb; 
+        Border: 2px solid #d00;
+        Font-size: 150%; 
+        Letter-spacing: 0.15em; Height: 40px;
+    }
+
+    /* Buttons inside the tables div specifically   previous next   */
+    .paginate_button {
+         Margin: 50px 5px 5px 5px;
+        Font-size: 180%;
+        Font-weight: bolder;
+        Padding: 9px;
+        Color: #eeb;
+        Color: #ddd;
+        border: 2px red solid;
+    }
+
+    /* Text in div inside the tables   Showing 1 to 10 of 40   */
+    .dataTables_info {
+         Margin: 1px 1px 16px 24px;
+        Font-size: 180%;
+        Font-weight: bolder;
+        Padding: 9px;
+        color: #eeb;
+    }
+
+    /* Search term inside the tables div specifically   search   */
+    .dataTables_filter {
+         Margin: 9px 1px 16px 1px;
+        Font-size: 180%;
+        Font-weight: bolder;
+        Padding: 1px 1px 1px 30px;
+        color: white;
+    }
+
+    video {
+        border: 2px inset #446;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .tac {
+      text-align: center 
+    }  
+
+    .insettabledata {
+      Font-size: 170%;
+      Font-weight: bolder;
+      Padding: 9px;
+    }
+        
+    .sname {
+      Font-size: 140%;
+      Font-weight: bolder;
+      Padding: 9px;
+      Color: blue;
+    } 
+
+     .file-input-wrapper {
+      width: 200px;
+      height: 40px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .file-input-wrapper > input[type="file"] {
+      font-size: 200px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      opacity: 0;
+    }
+
+    .file-input-wrapper > .btn-file-input {
+      display: inline-block;
+      width: 200px;
+      height: 40px;
+    }
+
+    #idquest
+    {  float: right; }
+
+    #idquest
+    {  text-align: center; }
+
+    #progress p
+    {  display: block;  width: 240px;  padding: 2px 5px;  margin: 2px 0;
+      border: 1px inset #446;
+      border-radius: 5px; }
+
+    #progress p.success
+    {  background: #0c0 none 0 0 no-repeat; }
+
+    #progress p.failed
+    {  background: #c00 none 0 0 no-repeat; }
+
