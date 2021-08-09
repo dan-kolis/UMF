@@ -1,12 +1,12 @@
 // React create classes with variables from rest of world showing.
-// Mid Apr 2021, like 28 Apr for example
+// Mid Q4 2021, like Sep 2021 for example for this one added
 
-console.log( "REACT_TableOptions invoked" );
+console.log( "REACT_Area9More invoked" );
 
 // ============================================================================
 // Make a smallish modal
 // ============================================================================
-class SmallishModal3 extends React.Component
+class SmallishModal8 extends React.Component
 {
   constructor(  props  ) 
   {
@@ -15,19 +15,21 @@ class SmallishModal3 extends React.Component
     this.state = { frameknt: 0, opacityNow: m.OpacityStart, myChangeClose: 'tbd' };
    
     // Can talk to rest of memory, reset it
-    REACT_IO.tableoptions = {}; REACT_IO.tableoptions = {};
+    REACT_IO.area9more = {}; REACT_IO.area9more = {};
 
     // Combine to use these are ready in 'real' memory. pick the ones to copy and use you like
     this.placeNow = m.placeIt3;
     this.styleWholeThing = Object.assign( {}, m.placeHow1, m.pickBorder, this.placeNow, m.sizeIt3, m.paddingWhole );
     this.hdlCloseClick = this.hdlCloseClick.bind( this );
     this.tick = this.tick.bind( this );
-    this.clickHtu = this.clickHtu.bind( this );
-    this.clickTan = this.clickTan.bind( this );
-    this.clickAne = this.clickAne.bind( this );
-    this.clickTtd = this.clickTtd.bind( this );
-    this.clickTte = this.clickTte.bind( this );
-    this.clickRes = this.clickRes.bind( this );
+    this.clickTsn = this.clickTsn.bind( this );
+    this.clickTsl = this.clickTsl.bind( this );
+    this.clickTsh = this.clickTsh.bind( this );
+    this.clickHif = this.clickHif.bind( this );
+    this.clickTss = this.clickTss.bind( this );
+    this.clickBak = this.clickBak.bind( this );
+    this.clickBar = this.clickBar.bind( this );
+    this.clickTst = this.clickTst.bind( this );
   }
 
   // Ready to go
@@ -73,10 +75,14 @@ class SmallishModal3 extends React.Component
   // Close button in me
   hdlCloseClick()
   {
+
+    console.log('booga hdlCloseClick '+ this.doItCb);
     // Just ignore this instance of the object if its not really there
     let toGo;  toGo = this.doItCb;
     if( toGo != undefined )   toGo();
-   
+    
+    console.log('booga running something ' + this.localExeForDone );
+    
     // Sometimes as we leave there is an exe to call
     if( this.localExeForDone != undefined )  this.localExeForDone();
 
@@ -92,30 +98,42 @@ class SmallishModal3 extends React.Component
     return ff;
   }
 
-  clickHtu(){
-    REACT_IO.tableoptions.picked = 'clickseeurl';
-    REACT_IO.tableoptions.forHumans = 'Click to get at via URL'; 
-    REACT_IO.tableoptions.lineHint = 'Hops to the WWW under your click';
+  // Three mnu long
+  clickTst(){ this.doMainIdea( ')saveclose', '', '', 'tst' ) }
+  clickTsn(){ this.doMainIdea( ')saveclose', '', '', 'tsn' ) }
+  clickTsl(){ this.doMainIdea( ')saveclose', '', '', 'tsl' ) }
+  clickTss(){ this.doMainIdea( ')saveclose', '', '', 'tss' ) }
+  clickTsh(){ this.doMainIdea( ')saveclose', '', '', 'tsh' ) }
 
-    this.setState( { myChangeClose: 'isayclose' } );
-    this.localExeForDone = popUpHeadsUpTo;
-  }
+  // Five long
+  clickHif(){ this.doMainIdea( ')saveclose', '', '', 'hidef' ) }
 
-  clickTan(){ this.doMainIdea( 'clicktonumber', 'Click to number line items', 'Your clicks renumber fields' ) };
-  clickAne(){ this.doMainIdea( 'addnoteseasy', 'Click to add notes to things', 'Add notes to line items' ) };
-  clickTtd(){ this.doMainIdea( 'clickgone', 'Click to delete line items', 'Remove line items with a click' ) };
-  clickTte(){ this.doMainIdea( 'clicktoexplain', 'Click to get explanations', 'Click for lookups' ) };
-  clickRes(){ this.doMainIdea( 'softreset', 'UI Reset', 'A mild reset of the User interface' ) };
+  // Reset
+  clickBar(){ this.doMainIdea( ')saveclose', '', '', ')bigreset' ) }
+ 
+  // None
+  clickBak(){ this.doMainIdea( ')justclose' ); }
 
   // Some idea is clicked, deligate what to do, shut down modal, start up hint one too
-  doMainIdea( littleCode, sayMsg, helperIdea )
+  doMainIdea( littleCode, sayMsg, helperIdea, doLike )
   {
-    REACT_IO.tableoptions.picked = littleCode;
-    REACT_IO.tableoptions.forHumans = sayMsg; 
-    REACT_IO.tableoptions.lineHint = helperIdea; 
-    
+    console.log('booga dmi '+ littleCode )
+    if( littleCode == ')justclose' ) { this.hdlCloseClick(); return; }
+
+    console.log('booga cmi continuing');
+    REACT_IO.area9more.picked =     littleCode;
+    REACT_IO.area9more.forHumans =  sayMsg; 
+    REACT_IO.area9more.lineHint =   helperIdea; 
+
+    // Important sorta of persistent setting change in real memory
+    if( doLike != undefined ) { window.rememberREACTsetting( 'a9text', doLike ); }
+
     this.setState( { myChangeClose: 'isayclose' } );
-    this.localExeForDone = popUpHeadsUpTo; 
+
+    if( littleCode != ')saveclose' )  { this.localExeForDone = popUpHeadsUpA9; }
+
+    // I always go away, sometimes exe helper   
+    { this.hdlCloseClick(); return; }
   }
 
 
@@ -133,12 +151,14 @@ class SmallishModal3 extends React.Component
               onClick = { this.handleClick1 }>More</button>
       <div style = { m.styleXclose }  onClick = { this.hdlCloseClick }>[x] Close</div><br />
       <div style = { m.styleTline }>{ this.props.L1 }</div><br />
-      <button onClick={this.clickHtu} className="dingledorfer">Hop to URL</button>
-      <button onClick={this.clickTan} className="dingledorfer">Touch and number</button>
-      <button onClick={this.clickAne} className="dingledorfer">Add notes easily</button>
-      <button onClick={this.clickTtd} className="dingledorfer">Touch to delete</button>
-      <button onClick={this.clickTte} className="dingledorfer">Touch to explain</button>
-      <button onClick={this.clickRes} className="dingledorfer">RESET UI</button>
+      <button onClick={this.clickBar} className="dingledorfer">Reset this area</button>
+      <button onClick={this.clickTst} className="dingledorfer">TEXT size - Tiny</button>
+      <button onClick={this.clickTss} className="dingledorfer">TEXT size - Small</button>
+      <button onClick={this.clickTsn} className="dingledorfer">TEXT size - Normal</button>
+      <button onClick={this.clickTsl} className="dingledorfer">TEXT size - Large</button>
+      <button onClick={this.clickTsh} className="dingledorfer">TEXT size - Huge</button>
+      <button onClick={this.clickHif} className="dingledorfer">TEXT hide - fields</button>
+      <button onClick={this.clickBak} className="dingledorfer">GO BACK</button>
       </div>
     );
   }
@@ -149,7 +169,7 @@ class SmallishModal3 extends React.Component
 // Interface in regular dom function space to get at this functionality
 // ============================================================================
 // A regular function to show a custom thing 18apr21
-window.REACTtableOptions = function innerSmMo3( whatShows, aSpot, cb )
+window.REACTArea9More = function innerSmMo3( whatShows, aSpot, cb )
 {
   // Argument is a scalar string
 
@@ -157,6 +177,6 @@ window.REACTtableOptions = function innerSmMo3( whatShows, aSpot, cb )
   let daL1 = whatShows.L1, daB1 = whatShows.B1, daB2 = whatShows.B2, daMo = whatShows.MO, 
       daCC = whatShows.howclose;
   // Apply
-  ReactDOM.render(  <SmallishModal3 L1 = { daL1 } B1 = { daB1 } B2 = { daB2 } Lcb = { cb } Lcc = { daCC }/>, 
+  ReactDOM.render(  <SmallishModal8 L1 = { daL1 } B1 = { daB1 } B2 = { daB2 } Lcb = { cb } Lcc = { daCC }/>, 
     document.getElementById( 'reactsandbox3' ) );
 }

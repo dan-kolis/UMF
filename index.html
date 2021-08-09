@@ -87,7 +87,7 @@
       padding: -9px -3px -3px -3px; margin: 0px; }
 
         #divtextarea9 p
-        { font-size: 15px; color: #ec9; line-height: 16px;
+        { font-size: 15px; color: #ec9;
       padding: 1px 1px 1px 1px; margin: 3px; margin-bottom: 8px; }
 
         .hrmarg
@@ -457,8 +457,8 @@
   // Shared general writable div in a modal we use for misc stuff
     var F_elmReuseDiv1, F_elmReuseDiv2;
 
-    // Area9 assets
-    var F_elmA9slider;
+    // Area9 assets 06aug21
+    var F_elmA9slider, area9how = {};
 
   // Shares of facts moving into table and from tables
   var tableStuff;
@@ -526,7 +526,7 @@
 <script src=REACT_AniFrame.js               type="text/babel"></script>
 <script src=REACT_PickLine.js               type="text/babel"></script>
 <script src=REACT_ProgressShow.js           type="text/babel"></script>
-
+<script src=REACT_Area9More.js              type="text/babel"></script>
 
 
 <!-- Scripts for UMF the Universal Media Framework these are just pieces of the program not 3rd party-->
@@ -1340,7 +1340,7 @@ function watcherSetsAtStartsup()
         DOMcloserHUNK('');
     })
     
-    // Basic text area 9 motion commands
+    // Basic text area 9 motion commands. Area 9 can be named differently like   idea workspace   maybe
     $("#rfirst").click(function()
     {   rawFactRecMotion('fr'); });
     $("#rprevious").click(function()
@@ -1351,18 +1351,19 @@ function watcherSetsAtStartsup()
     {   rawFactRecMotion('lr'); });
         
     // Other area 9 commands #besttablebutton
-    // fill best table pick target table select fields
     $("#rselectBESTtable").click(function() 
     {   BtnYouPickBestTable(); });
     $("#rfillBESTtable").click(function()
     {   bestTableBtnDoer(); }); 
-
     $("#rselectfields").click(function()
     {   BtnselectFields( 'Pick fields you want to consider:' );});
-        
     $("#addrowstomemos").click(function() {
         $('#basetable1 tr:last').after('<tr><td>...</td><td>...</td><td>...</td></tr>');
     });
+    $("#rmore").click(function()
+    {   offerMoreA9(); });
+
+
 
     // Ask
     $("#askforlabelsfromcloud").click(function() {
@@ -1568,11 +1569,48 @@ function TableTouchedOnce()
 }
 
 
+// BR for starts inserted to all table DOM look 05aug21
+function insertBrAllT()
+{
+}
+
+
 // Fixup table look underneath stuff in dom 02apr21
 function DOMunderTableNomenFixer( aN )
 {
+
+    // Previous clicker note unusual use of <a>
+        let fPr = $("a:contains('Previous')");
+
+        let oL1 = $('#configoval7');
+        let oL2 = $('#configoval4').find("a:contains('Previous')");
+
+        let dmy = 9;
+        dmy++;
+
     TouchUpDOMpn();
     TouchUpDOMmore();
+}
+
+
+// Add whatever to make tables look best start once 05aug21
+function adjustDOMTabStart()
+{
+    for( let t = 2; t < tableCount + 1 ; t++ )
+    {   TouchUpDOMbr( t ); }  
+}
+
+
+// Add a break this is fussier then the others for some reason, better to do it by table number 05aug21
+function TouchUpDOMbr( aTa )
+{
+    let daThing = '#configoval' + aTa.toString();
+    let oL = $( daThing ).find("a:contains('Previous')");
+
+    // If the DOM changes, its bad to have > 1 find or no find, so
+    let aKnt = oL.length;
+    if( aKnt != 1 ) { console.log( "BR cleanup missing an element, this is not serious" ) }
+    else { oL.before( ' <br> ' ); }
 }
 
 
@@ -1616,6 +1654,7 @@ function ezTweakLookInDOM( ele, fs, co, ma, bo, pa )
 // Touch up Dom Previous next and middle 02apr21
 function TouchUpDOMpn()
 {
+
     // Class   Paginate   ( between previous and next )
     let fPa = $(".paginate_button");
     ezTweakLookInDOM( fPa, fonS, colBlk, marI, borStyleOrd, padI );
@@ -1624,14 +1663,10 @@ function TouchUpDOMpn()
     let fPr = $("a:contains('Previous')");
     ezTweakLookInDOM( fPr, fonS, colO1, marI, borStyleOrd, padI );
     
-    // Add a   break   before this thing or its indentation is a little wrong
-    fPr.before( ' <br> ' );
-
     // Next clicker funny <a> usage
     let fNe = $("a:contains('Next')");
     ezTweakLookInDOM( fNe, fonS, colO2, marI, borStyleOrd, padI );
 }
-
 
 // More fussing table DOM
 function TouchUpDOMmore()
@@ -2602,6 +2637,11 @@ function copyArea9TextToTable()
     // Make it open for viewing 
     winShowHide( hunkTaNumToAccess, 'show' );
 
+    // The DOM messes up the table visually so we need to go back and move around whitespace
+    // this says which tbale it is by the nambers, thats all its for
+    // 05aug21
+    tableTouchUp = hunkTaNumToAccess;
+
     // Human ( or me ) hopefully picked a good number
     selectTable( hunkTaNumToAccess );
 
@@ -2612,6 +2652,8 @@ function copyArea9TextToTable()
     doArea9EditToTable();                                   // The argument is little humany notions
     hunkTaNumToAccess = 0;                                  // Can be refound new pass, sure
 }
+var tableTouchUp = 0;
+
 
 // Data compression
 function zlwDecompress( compressed ) { 
@@ -2817,7 +2859,8 @@ function Start_Like_So()
     // Versioning 
     var vNow, vTz, vDevBox;
     vTz = 'e'; vDevBox = 'pioneer';
-    vNow = "07 Jun 2021 11:58";
+    vNow = "09 Aug 2021 20:27 Z";
+
 
 // Do when going
 function ImLoaded() 
@@ -3080,7 +3123,6 @@ function ImLoaded()
         let m = versionSay(); 
 
         // Use the custom text in REALM thing:
-        let hereGoes = { char: 'Oshawa personality' };
         REACToneLiner( { L1: versionSay(), L2: 'Development code', L3: 'On Pioneer',
                                 MO: 'Call back to home base', displayLength: 'golong' },                
                                 'medium-middle', cbTest );
@@ -3564,6 +3606,9 @@ function StartForReal()
     if( mrBoole.startHiThere && ( !splashFired ) )
     {   REACToneLiner( { L1: ll.hithere, L2: versionSay() },
                                 'medium-middle' ); }
+
+    // Changes to DOM around tables 05aug21
+    adjustDOMTabStart();
 }
 
 
@@ -4531,15 +4576,31 @@ function SetModalDisplayable( t1, t2 )
 }
 
 
-// Working modal thinking 21apr21
-function popUpHeadsUp()
+// Working lead out modal 05aug21
+function popUpHeadsUpTo()
 {
+    // For table options nominally
+
     let aNameAction = "popup", aHin = '';
     aNameAction = REACT_IO.tableoptions.forHumans;
     aHin =        REACT_IO.tableoptions.lineHint;
     REACTheadsUp( { L1: aNameAction, L2: aHin, L3: 'not used zjgasjgdj',
-                                MO: 'Call back to home base', howclose: 'waitforclick' },              
-                               'top-middle' );
+                    MO: 'Call back to home base', howclose: 'waitforclick' },              
+                    'top-middle' );
+}
+
+
+// Working lead out modal 05aug21
+function popUpHeadsUpA9()
+{
+    // For table options nominally
+
+    let aNameAction = "popup", aHin = '';
+    aNameAction = REACT_IO.area9more.forHumans;
+    aHin =        REACT_IO.area9more.lineHint;
+    REACTheadsUp( { L1: aNameAction, L2: aHin, L3: 'not used zjgasjgdj',
+                    MO: 'Call back to home base', howclose: 'waitforclick' },              
+                    'top-middle' );
 }
 
 
@@ -5086,13 +5147,41 @@ function reactModalsaysGetThisHunk( daKind, anIndex, daText )
  // Audio for area9 uniform cues 03aug20
 function area9AudioCues( doThis )
 {
-        // cues
+    // cues
 
-        if( doThis == 'rec9motion' )                    cannedAudioOut( 'miniclick' );
+    if( doThis == 'rec9motion' )                    cannedAudioOut( 'miniclick' );
 }
 
 
-// Preview in area 9 02sep20
+// More in area 9 06aug21
+function offerMoreA9()
+{
+    let m = "MORE";
+    // REACToneLiner( {    L1: m, L2: 'Line 2', L3: 'Line 3',
+    //                    MO: 'Call back to home base', displayLength: 'golong' },                
+    //                    'medium-middle', cbTest );
+
+    REACTArea9More( { L1: 'Idea Workspace Options', B1: 'floor', B2: 'now please',
+                         MO: 'Call back to Boston', howclose: 'selfdecide' },                
+                         'medium-middle' );
+}
+
+
+// Settable facts from REACT modals 06aug21
+function rememberREACTsetting( aKind, aFact )
+{
+    // These are about things in general not just innards of modals
+    // Are sorted in parellel by length, pick the mnu carefully
+
+    if( aKind == 'a9text' )
+    {   if( aFact.length == 3 )     { area9how.textsize = aFact;  }
+        if( aFact.length == 5 )     { area9how.renderhow = aFact; }
+        if( aFact == ")bigreset" )  { area9how.textsize = undefined; area9how.renderhow = undefined; }
+    }
+}
+
+
+// Preview in area 9 02sep20 05aug21
 function rawFactRecMotion( aM ) 
 {
     // More through records, casual previews
@@ -5244,7 +5333,7 @@ function recordLookWithNum( aNum )
     return "Record: " + aNum.toString() + ' ';
 }
 
-// Work with one record in considerable detail #recordparsing
+// Work with one record in considerable detail #recordparsing 05aug21
 function RecordLikeProcessing( doLike, daRec, recNum )
 {
     // A record, and its index number is required,
@@ -5259,10 +5348,12 @@ function RecordLikeProcessing( doLike, daRec, recNum )
 
     // Find what line cutting is suggested
     let mFa = "";
-    let suRecDelim = ProcessRecInUsingDelim( daRec )
+    let suRecDelim =    ProcessRecInUsingDelim( daRec )
     let sizNow =        suRecDelim.thisMany; 
-    let recFields = suRecDelim.fieldsNow;
-    let daC =               suRecDelim.usingThis;
+    let recFields =     suRecDelim.fieldsNow;
+    let daC =           suRecDelim.usingThis;
+
+    // Figured out delim turns to human readable of it
     if( daC == TA )         { mFa = "Cut at tab"; } 
     if( daC == CO )         { mFa = "Cut at comma"; }
     if( mFa == '' )         { mFa = "Lone lines"; }
@@ -5404,9 +5495,10 @@ function DOMrecordShow( aRecNum, soHow )
         let howTo = ')html2';                                                   // Human format
         let daRec =  theRecords[ aRecNum ];                     // A record
 
+        // This makes human readable lines for a record numbered in the call
         let gotLine = RecordLikeProcessing( howTo, daRec, aRecNum );
-        let topPart = gotLine.top;
-        let botPart = gotLine.bot;
+        let topPart = gotLine.top;                              // Overview
+        let botPart = gotLine.bot;                              // Conent that is fields
 
         // Work is usually applied to a overview and a detail
         DOMshowArea9HumanSituation( topPart,')clr9a');
@@ -5477,22 +5569,23 @@ function ProcessRecInUsingDelim( hereLine )
 }
 
 
-// Combining fields for looking at directly 12aug20
+// Combining fields for looking at directly 12aug20 06aug21
 function showyFieldCombiner( aKw, fldContent, doThis )
 {
     // Make human readable line, note fieldname is a keyword to us
         
     let ans = "";
 
-  // Incomplete last record cam case this at end record
+    // Incomplete last record ?   This at end of record ?
     if( fldContent == undefined )   return ans;
 
-    // Decide if there is 'no content' or has content
+    // Decide if there is 'no content' or has content, count good reasons
     let hasCont = false, reas = 0;
     if( aKw != "" )                                         reas++;
-    if( fldContent.trim() != "" )               reas++;
+    if( fldContent.trim() != "" )                           reas++;
     if( reas == 2 )                                         hasCont = true;
 
+    // A Way to render it
     if( doThis == ')html1' )
     {
         // We want a hook to change kw ideas depending on circumstance
@@ -5503,8 +5596,20 @@ function showyFieldCombiner( aKw, fldContent, doThis )
         ans = H_RED( aKw ) + H_SPACE + fixedUpLi + eolRecWork;
     }   
 
+    // A different way ...
     if( doThis == ')html2' )
     {
+        // Setting turn to sizes
+        let aPx = ideaToPx( area9how.textsize ); 
+        let biMe = {}; biMe.sizeFont = aPx; let biTi = {}; biTi.sizeFont = aPx + 2;
+
+        // Two ideas a field name and content look a little different
+        let insMe = insertableTextLook( biMe );
+        let insTi = insertableTextLook( biTi );
+
+        let fancyP = "<p " + insMe + ">";
+        let fancyH = "<h2 " + insTi + ">";
+
         if( hasCont )
         {
             // Help facts, dunno
@@ -5512,10 +5617,49 @@ function showyFieldCombiner( aKw, fldContent, doThis )
             let fixedUpLi = improveHrFieldEntity( aKw, hlpFacts, fldContent );
 
             // Line which should be a mnumonicy fieldname and the filed fact
-            ans = "<h2>" + aKw + "</h2>" + "<p>" + fixedUpLi + "</p>" + " ";
+            ans = fancyH + aKw + ":" + "</h2>" + fancyP + fixedUpLi + "</p>" + " ";
+
+            // Could differ, less shows
+            if( area9how.renderhow == 'hidef' )
+            { ans = fancyP + fixedUpLi + "</p>" + " "; }
         }
     }   
 
+    return ans;
+}
+
+
+// Idea for text size to font size in px 06aug21
+function ideaToPx( aCode )
+{
+    let aPx = 16;
+
+    if( aCode == 'tst' )    aPx = 10;
+    if( aCode == 'tss' )    aPx = 14;
+    if( aCode == 'tsn' )    aPx = aPx;          // Normal
+    if( aCode == 'tsl' )    aPx = 20;
+    if( aCode == 'tsh' )    aPx = 28;
+
+    // Reserved
+    if( aCode == 'stf' )    { let dmy = 0; }
+
+    return aPx;
+}
+
+
+
+
+// Insertable text html changer 06aug21
+function insertableTextLook( daKind )
+{
+    // Changable text look to be put in a tag. Made easy to extend
+
+    let sNum = daKind.sizeFont;
+    if( sNum == undefined ) return "";
+
+    let st = "style=" + DQ + "font-size: " + sNum.toString() + "px" + DQ; 
+
+    ans = st;
     return ans;
 }
 
@@ -6123,7 +6267,7 @@ function DOMshowArea9HumanSituation( sayThis, doThis )
     else
     { finSay = tN + CRLF + sayThis; }
 
-    // Can show in two places
+    // Can show in two places like   record 9   or some explaination humanany
     dcMain.innerHTML = finSay;
     modalRecNav1 = finSay;
 
@@ -6259,6 +6403,9 @@ function Area9toBestTableIterator()
         let d = (t2 - t0) / 1000;
         let perI = d / recKntAll;
         console.log( "And mS per record: ", perI * 1000 );
+
+        // This   br   messes up th look sometimes, tricky to apply only when useful 05aug21
+        TouchUpDOMbr( tableTouchUp );
     }
 }
 
@@ -7596,7 +7743,7 @@ function just2p2()
             </h2>
         </div>
         
-        <div id=table8box>
+        <div id=table9sidemenu>
             <div class=hrmarg>  
                 <button id=rfirst>First</button>
                 <button id=rprevious>Previous</button>
@@ -7605,8 +7752,8 @@ function just2p2()
                 <button id=rselectfields>Select <b>FIELDS</b></button>
                 <button id=rselectBESTtable>Pick <b>BEST</b> target</button>
                 <button id=rfillBESTtable>Fill <b>BEST</b> target</button>
-                <button id=rprevious>Review</button>
-                <button id=rfirst>MORE</button>
+                <button id=rreview>Review</button>
+                <button id=rmore>MORE</button>
             </div>
             <div id=divtextarea9 contenteditable>Text Editor panel</div>
             <div id=slidecontainer1>

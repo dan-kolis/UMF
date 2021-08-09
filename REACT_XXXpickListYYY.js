@@ -1,12 +1,12 @@
 // React create classes with variables from rest of world showing.
-// Mid Apr 2021, like 28 Apr for example
+// Mid Q4 2021, like Sep 2021 for example for this one added
 
-console.log( "REACT_TableOptions invoked" );
+console.log( "REACT_Area9More invoked" );
 
 // ============================================================================
 // Make a smallish modal
 // ============================================================================
-class SmallishModal3 extends React.Component
+class SmallishModal8 extends React.Component
 {
   constructor(  props  ) 
   {
@@ -15,7 +15,7 @@ class SmallishModal3 extends React.Component
     this.state = { frameknt: 0, opacityNow: m.OpacityStart, myChangeClose: 'tbd' };
    
     // Can talk to rest of memory, reset it
-    REACT_IO.tableoptions = {}; REACT_IO.tableoptions = {};
+    REACT_IO.Area9More = {}; REACT_IO.Area9More = {};
 
     // Combine to use these are ready in 'real' memory. pick the ones to copy and use you like
     this.placeNow = m.placeIt3;
@@ -93,12 +93,12 @@ class SmallishModal3 extends React.Component
   }
 
   clickHtu(){
-    REACT_IO.tableoptions.picked = 'clickseeurl';
-    REACT_IO.tableoptions.forHumans = 'Click to get at via URL'; 
-    REACT_IO.tableoptions.lineHint = 'Hops to the WWW under your click';
+    REACT_IO.Area9More.picked = 'clickseeurl';
+    REACT_IO.Area9More.forHumans = 'Click to get at via URL'; 
+    REACT_IO.Area9More.lineHint = 'Hops to the WWW under your click';
 
     this.setState( { myChangeClose: 'isayclose' } );
-    this.localExeForDone = popUpHeadsUpTo;
+    this.localExeForDone = popUpHeadsUp;
   }
 
   clickTan(){ this.doMainIdea( 'clicktonumber', 'Click to number line items', 'Your clicks renumber fields' ) };
@@ -110,12 +110,12 @@ class SmallishModal3 extends React.Component
   // Some idea is clicked, deligate what to do, shut down modal, start up hint one too
   doMainIdea( littleCode, sayMsg, helperIdea )
   {
-    REACT_IO.tableoptions.picked = littleCode;
-    REACT_IO.tableoptions.forHumans = sayMsg; 
-    REACT_IO.tableoptions.lineHint = helperIdea; 
+    REACT_IO.Area9More.picked = littleCode;
+    REACT_IO.Area9More.forHumans = sayMsg; 
+    REACT_IO.Area9More.lineHint = helperIdea; 
     
     this.setState( { myChangeClose: 'isayclose' } );
-    this.localExeForDone = popUpHeadsUpTo; 
+    this.localExeForDone = popUpHeadsUp; 
   }
 
 
@@ -133,12 +133,12 @@ class SmallishModal3 extends React.Component
               onClick = { this.handleClick1 }>More</button>
       <div style = { m.styleXclose }  onClick = { this.hdlCloseClick }>[x] Close</div><br />
       <div style = { m.styleTline }>{ this.props.L1 }</div><br />
-      <button onClick={this.clickHtu} className="dingledorfer">Hop to URL</button>
-      <button onClick={this.clickTan} className="dingledorfer">Touch and number</button>
-      <button onClick={this.clickAne} className="dingledorfer">Add notes easily</button>
-      <button onClick={this.clickTtd} className="dingledorfer">Touch to delete</button>
-      <button onClick={this.clickTte} className="dingledorfer">Touch to explain</button>
-      <button onClick={this.clickRes} className="dingledorfer">RESET UI</button>
+      <button onClick={this.clickHtu} className="dingledorfer">Rats and mice</button>
+      <button onClick={this.clickTan} className="dingledorfer">>Toast and kittens</button>
+      <button onClick={this.clickAne} className="dingledorfer">Hands and feet</button>
+      <button onClick={this.clickTtd} className="dingledorfer">Greasy tacos</button>
+      <button onClick={this.clickTte} className="dingledorfer">Fun at work</button>
+      <button onClick={this.clickRes} className="dingledorfer">RESET SOMETHING</button>
       </div>
     );
   }
@@ -149,7 +149,7 @@ class SmallishModal3 extends React.Component
 // Interface in regular dom function space to get at this functionality
 // ============================================================================
 // A regular function to show a custom thing 18apr21
-window.REACTtableOptions = function innerSmMo3( whatShows, aSpot, cb )
+window.REACTArea9More = function innerSmMo3( whatShows, aSpot, cb )
 {
   // Argument is a scalar string
 
@@ -157,6 +157,6 @@ window.REACTtableOptions = function innerSmMo3( whatShows, aSpot, cb )
   let daL1 = whatShows.L1, daB1 = whatShows.B1, daB2 = whatShows.B2, daMo = whatShows.MO, 
       daCC = whatShows.howclose;
   // Apply
-  ReactDOM.render(  <SmallishModal3 L1 = { daL1 } B1 = { daB1 } B2 = { daB2 } Lcb = { cb } Lcc = { daCC }/>, 
+  ReactDOM.render(  <SmallishModal8 L1 = { daL1 } B1 = { daB1 } B2 = { daB2 } Lcb = { cb } Lcc = { daCC }/>, 
     document.getElementById( 'reactsandbox3' ) );
 }
